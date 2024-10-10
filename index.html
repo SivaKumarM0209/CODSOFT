@@ -3,70 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- Header Section -->
-    <header>
-        <h1>M SIVA KUMAR</h1>
-        <p>CSBS student at RMD Engineering College | Aspiring Web Developer</p>
-        <p>Passionate about building web applications with HTML, CSS, JavaScript, Python, and Java.</p>
-    </header>
-
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <img src="images/Siva Kumar.jpg.jpeg" alt="Siva Kumar">
-        <p>I'm M. Siva Kumar, currently pursuing a CSBS degree at RMD Engineering College. My interests lie in web development, and I have a strong foundation in programming with a certification in C. I am proficient in C, C++, Python, Java, SQL, HTML, CSS, and JavaScript, and I enjoy applying my skills to build and design interactive websites.</p>
-    </section>
-
-   
-
-    <!-- Skills Section -->
-    <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-    <h2>Project</h2>
-
-    <div class="project">
-        <h3>Personal Portfolio Website</h3>
-        <img src="images/portfolio-project.jpg" alt="Portfolio Project Image">
-        <p>This is my personal portfolio website built using HTML, CSS, and JavaScript. It showcases my skills, projects, and resume, and is designed to highlight my web development expertise.</p>
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <button class="btn" id="clear">C</button>
+            <button class="btn operator">/</button>
+            <button class="btn operator">*</button>
+            <button class="btn operator">-</button>
+            <button class="btn number">7</button>
+            <button class="btn number">8</button>
+            <button class="btn number">9</button>
+            <button class="btn operator">+</button>
+            <button class="btn number">4</button>
+            <button class="btn number">5</button>
+            <button class="btn number">6</button>
+            <button class="btn number">1</button>
+            <button class="btn number">2</button>
+            <button class="btn number">3</button>
+            <button class="btn equals">=</button>
+            <button class="btn number">0</button>
+        </div>
     </div>
-    </section>
-
-
-    <!-- Resume Section -->
-    <section id="resume">
-    <h2>Resume</h2>
-    <p>Download my resume: 
-        <p>Download my resume: <a href="docs/resume.pdf" target="_blank">Resume PDF</a></p>
-    </p>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: sivakumarxia@gmail.com</p>
-        <p>Phone: +919345137809</p>
-    </section>
-
-
-     <!-- Footer Section -->
-     <footer>
-        <p>&copy; 2024 M.SIVA KUMAR. All rights reserved.</p>
-    </footer>
-
-
+    <script src="script.js"></script>
 </body>
 </html>
